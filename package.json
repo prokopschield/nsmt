@@ -1,0 +1,20 @@
+{
+	"name": "nsmt",
+	"description": "faster nslibmgr",
+	"version": "0.1.0-1",
+	"main": "lib/cli.js",
+	"bin": {
+		"nsmt": "lib/cli.js"
+	},
+	"author": "Prokop Schield",
+	"license": "GPL-3.0-or-later",
+	"devDependencies": {
+		"@types/node": ">=14"
+	},
+	"keywords": [],
+	"dependencies": {
+		"cluster": "^0.7.7",
+		"nsmt-nslibmgr": "^0.2.0-3",
+		"ts-hound": "^1.0.7"
+	}
+}

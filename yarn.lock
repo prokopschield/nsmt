@@ -212,10 +212,10 @@ nsblob@^0.2.4:
   dependencies:
     nodesite.eu "^1.2.0-9"
 
-nsmt-nslibmgr@^0.2.0-4:
-  version "0.2.0-4"
-  resolved "https://registry.yarnpkg.com/nsmt-nslibmgr/-/nsmt-nslibmgr-0.2.0-4.tgz#cade1902092b2f403da24bdcfb103c5beeb3f8b2"
-  integrity sha512-zWuXF29nMuQnTL66N8veDUGeCgV1N4hsgUaoC/RQHlrkY5ldQnG9vTgtlHkpv9o5dn0qDrsS9p8rfUoXCl5a6A==
+nsmt-nslibmgr@^0.2.0-5:
+  version "0.2.0-5"
+  resolved "https://registry.yarnpkg.com/nsmt-nslibmgr/-/nsmt-nslibmgr-0.2.0-5.tgz#49771ff6cd90373ce2263dd74139ae90c90260ae"
+  integrity sha512-naHjCjcNVpQmEgyotKLoDWWPeU34C6tdu4uEUi89/x7N5c5OXssu43iZ+qwn+NgwcFO60ejPv0Fei9nfTeS35w==
   dependencies:
     doge-config "^0.3.0-3"
     nsblob "^0.2.4"

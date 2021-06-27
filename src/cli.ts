@@ -10,25 +10,25 @@ let worker: cluster.Worker;
 let worker_initialized = false;
 
 if (cluster.isMaster) {
-	Promise.resolve()
-	.then(async () => {
+	Promise.resolve().then(async () => {
 		while (true) {
 			await nslibmgr.compileHandler();
 			await nslibmgr.cloudHandler('.', {
 				unlink_by_default: true,
 			});
+			await nslibmgr.lintHandler();
 			if (worker_initialized) {
 				worker.kill();
 			}
 			worker = cluster.fork();
 			worker_initialized = true;
-			await new Promise(resolve => {
+			await new Promise((resolve) => {
 				worker.once('online', () => {
 					worker.process.stdout?.pipe(process.stdout);
 					worker.process.stderr?.pipe(process.stdout);
 					worker.process.stdin && process.stdin.pipe(worker.process.stdin);
 					worker.once('exit', resolve);
-				})
+				});
 			});
 		}
 	});
@@ -59,4 +59,6 @@ process.on('SIGINT', () => {
 });
 
 process.on('uncaughtException', (error) => console.log({ error }));
-process.on('unhandledRejection', (_reason, promise) => console.log('Unhandeled rejection!', promise));
+process.on('unhandledRejection', (_reason, promise) =>
+	console.log('Unhandeled rejection!', promise)
+);

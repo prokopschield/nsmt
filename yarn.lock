@@ -227,10 +227,10 @@ nsblob@^0.2.6:
     blakets "^0.0.0-3"
     nodesite.eu "^1.2.0-10"
 
-nsmt-nslibmgr@^0.2.0-7:
-  version "0.2.0-7"
-  resolved "https://registry.yarnpkg.com/nsmt-nslibmgr/-/nsmt-nslibmgr-0.2.0-7.tgz#93796e90368e6812ca6cfa63f8115c80d678b81a"
-  integrity sha512-Ju9+B0xkGmEbMyMlnUk0iGzRz5OZ2iYJa7l0GgghMBvjp5xgl0ARfXrkq16xLZ+jZh+iuT9iDKEKwRvZUC10bg==
+nsmt-nslibmgr@^0.2.0-8:
+  version "0.2.0-8"
+  resolved "https://registry.yarnpkg.com/nsmt-nslibmgr/-/nsmt-nslibmgr-0.2.0-8.tgz#fde0de8c38c56eb3afdecf4179522f8fc7280fcc"
+  integrity sha512-ha+kW8oPNwTDrPnZgGVtj1m3qgqLbgfYV+oTD4ZYbWBrDIG4UX317HkD10DI5nYKMQnQjecIoSs96mcZ4NUnBQ==
   dependencies:
     doge-config "^0.3.0-4"
     nodesite.eu "^1.2.0-10"

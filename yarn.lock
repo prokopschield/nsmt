@@ -64,12 +64,12 @@ doge-config@^0.3.0-3:
   dependencies:
     doge-json "^1.0.4"
 
-doge-config@^0.3.0-4:
-  version "0.3.0-4"
-  resolved "https://registry.yarnpkg.com/doge-config/-/doge-config-0.3.0-4.tgz#0b94aa93513a960aa62d429c151501844b93e98f"
-  integrity sha512-Z8QScefOwbVze/x2MTajyMMjplC1Tk8/2Nf/CbZUxFBd9lMbrpmX5dIDJbMi8PCDwfqEa77gaBTxI/FXzfXdJQ==
+doge-config@^0.3.4:
+  version "0.3.4"
+  resolved "https://registry.yarnpkg.com/doge-config/-/doge-config-0.3.4.tgz#1997353a6bbefded5af7d19a0424329ea3787b1a"
+  integrity sha512-vQYRVzcOX/Zk6xUaBtD/YQIwHfNEatPYpCOhcyeYzTz5cWvbS3eGrS0mJcnPGuTsxlx3am3fv14ZbtSImpH4yw==
   dependencies:
-    doge-json "^1.0.4"
+    doge-json "^1.1.0-3"
 
 doge-json@*, doge-json@^1.0.4:
   version "1.0.4"
@@ -227,17 +227,17 @@ nsblob@^0.2.6:
     blakets "^0.0.0-3"
     nodesite.eu "^1.2.0-10"
 
-nsmt-nslibmgr@^0.2.0-9:
-  version "0.2.0-9"
-  resolved "https://registry.yarnpkg.com/nsmt-nslibmgr/-/nsmt-nslibmgr-0.2.0-9.tgz#22f6a86c157395a9bc3936a82abaeda72d742e4b"
-  integrity sha512-bsoTsz3AYusbpSk+asppMNc7xX8z4NLowLmd88WGuXq6khswoPcW5DbxYCMbirHyHQ37r0vzDT3iY8jj+1QuDQ==
+nsmt-nslibmgr@^0.2.0-12:
+  version "0.2.0-12"
+  resolved "https://registry.yarnpkg.com/nsmt-nslibmgr/-/nsmt-nslibmgr-0.2.0-12.tgz#43fd6602cf7166b017afdd6750dd2f0f455d5f0d"
+  integrity sha512-qKckxfK+Fm85GRWO2rYw9Lu3767oH5lToEa2b+bjY/pI+UNMV2g0jI2fBDoc8AqmDDGl17+1GLVHarPiFnVKsw==
   dependencies:
-    doge-config "^0.3.0-4"
+    doge-config "^0.3.4"
     nodesite.eu "^1.2.0-10"
     nsblob "^0.2.6"
     oplist "^0.0.0-3"
     prompts "^2.4.1"
-    serial-async-io "^0.1.0-1"
+    serial-async-io "^0.1.0-2"
 
 oplist@^0.0.0-3:
   version "0.0.0-3"
@@ -264,10 +264,10 @@ prompts@^2.4.1:
     kleur "^3.0.3"
     sisteransi "^1.0.5"
 
-serial-async-io@^0.1.0-1:
-  version "0.1.0-1"
-  resolved "https://registry.yarnpkg.com/serial-async-io/-/serial-async-io-0.1.0-1.tgz#5cb7326ffffc2dd7446b9c004dc2db534c58ce4e"
-  integrity sha512-+V/tLjE2AtrBbqwAUIgk6Zpo7JAr9SbrYnSfjiUJcb3W1ucmwh96NNZZduU/9JDZuADH+jBvu4Osl1RMb4C7RQ==
+serial-async-io@^0.1.0-2:
+  version "0.1.0-2"
+  resolved "https://registry.yarnpkg.com/serial-async-io/-/serial-async-io-0.1.0-2.tgz#65e34bbe66073aa6f37b157f4d36117d3d43e8b7"
+  integrity sha512-3vU/vs/DS3v/raZ31lcyW/4q3JXp2bvh7yRuyTIDJTah8BSPjq/XUFmEr0M9qRLfwQz6If/Cj7+1KbpGqQoLeQ==
 
 sisteransi@^1.0.5:
   version "1.0.5"

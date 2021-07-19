@@ -1,13 +1,13 @@
 #!/usr/bin/env node
 
-import cluster from 'cluster';
+import cluster, { Worker } from 'cluster';
 import { read } from 'doge-json';
 import fs from 'fs';
 import * as nslibmgr from 'nsmt-nslibmgr/lib/nslibmgr';
 import path from 'path';
 import { watch } from 'ts-hound';
 
-let worker: cluster.Worker;
+let worker: Worker;
 let worker_initialized = false;
 
 if (cluster.isMaster) {

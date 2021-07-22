@@ -7,10 +7,10 @@
   resolved "https://registry.yarnpkg.com/@types/component-emitter/-/component-emitter-1.2.10.tgz#ef5b1589b9f16544642e473db5ea5639107ef3ea"
   integrity sha512-bsjleuRKWmGqajMerkzox19aGbscQX5rmmvvXl3wlIp5gMG1HgkiwPxsN5p070fBDKTNSPgojVbuY1+HWMbFhg==
 
-"@types/node@>=14":
-  version "16.3.3"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-16.3.3.tgz#0c30adff37bbbc7a50eb9b58fae2a504d0d88038"
-  integrity sha512-8h7k1YgQKxKXWckzFCMfsIwn0Y61UK6tlD6y2lOb3hTOIMlK3t9/QwHOhc81TwU+RMf0As5fj7NPjroERCnejQ==
+"@types/node@^14":
+  version "14.17.5"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-14.17.5.tgz#b59daf6a7ffa461b5648456ca59050ba8e40ed54"
+  integrity sha512-bjqH2cX/O33jXT/UmReo2pM7DIJREPMnarixbQ57DOOzzFaI6D2+IcwaJQaJpv0M1E9TIhPCYVxrkcityLjlqA==
 
 backo2@~1.0.2:
   version "1.0.2"
@@ -232,6 +232,16 @@ nsmt-nslibmgr@^0.2.0-13:
     prompts "^2.4.1"
     serial-async-io "^0.1.0-2"
 
+nsprt@^0.1.0-2:
+  version "0.1.0-2"
+  resolved "https://registry.yarnpkg.com/nsprt/-/nsprt-0.1.0-2.tgz#5b62ca046878a1096755f417821ac82cc903deac"
+  integrity sha512-nl3vge/a+YUe3ypqqQWtBwRn9XpotmEK3OxuVQ5+hwk3m1CfgUtUNQrG0lCh+H2NyVOs4UJPe/UqGbXk0e92VQ==
+  dependencies:
+    nsblob "^0.2.6"
+    prettier "^2.3.2"
+    serial-async-io "^0.1.0-2"
+    ts-hound "^1.0.7"
+
 oplist@^0.0.0-3:
   version "0.0.0-3"
   resolved "https://registry.yarnpkg.com/oplist/-/oplist-0.0.0-3.tgz#3b01d31e4117e0a4eb230042d0c11b7b0052d99b"
@@ -248,6 +258,11 @@ parseuri@0.0.6:
   version "0.0.6"
   resolved "https://registry.yarnpkg.com/parseuri/-/parseuri-0.0.6.tgz#e1496e829e3ac2ff47f39a4dd044b32823c4a25a"
   integrity sha512-AUjen8sAkGgao7UyCX6Ahv0gIK2fABKmYjvP4xmy5JaKvcbTRueIqIPHLAfq30xJddqSE033IOMUSOMCcK3Sow==
+
+prettier@^2.3.2:
+  version "2.3.2"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.3.2.tgz#ef280a05ec253712e486233db5c6f23441e7342d"
+  integrity sha512-lnJzDfJ66zkMy58OL5/NY5zp70S7Nz6KqcKkXYzn2tMVrNxvbqaBpg7H3qHaLxCJ5lNMsGuM8+ohS7cZrthdLQ==
 
 prompts@^2.4.1:
   version "2.4.1"

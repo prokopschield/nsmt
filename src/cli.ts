@@ -3,9 +3,9 @@
 import cluster, { Worker } from 'cluster';
 
 if (cluster.isMaster) {
-	require('./parent')
+	require('./parent');
 } else {
-	require('./child')
+	require('./child');
 }
 
 process.on('uncaughtException', (error) => console.log({ error }));

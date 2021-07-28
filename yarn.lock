@@ -220,26 +220,26 @@ nsblob@^0.2.6:
     blakets "^0.0.0-3"
     nodesite.eu "^1.2.0-10"
 
-nsmt-nslibmgr@^0.2.0-13:
-  version "0.2.0-13"
-  resolved "https://registry.yarnpkg.com/nsmt-nslibmgr/-/nsmt-nslibmgr-0.2.0-13.tgz#e001bec95f9ccedb6771dfc2314c40569411ac3c"
-  integrity sha512-Xmo7wTygPbIqOV0wQQvc8yYiHfAygqN3+NF88VmTgLGXtvM/uejujULWDeLHvTqki6CfPw7nsw7Lwo9C6k8dHQ==
+nsmt-nslibmgr@^0.2.4:
+  version "0.2.4"
+  resolved "https://registry.yarnpkg.com/nsmt-nslibmgr/-/nsmt-nslibmgr-0.2.4.tgz#717be501fa994e960c8fdef029ed29feb3fadb30"
+  integrity sha512-yHWw8mHGdMKNdA7BM3U9MMlu/IcifHHSORGKUWGDEBVCgrkEi+zg8/8NB6BMl4BrzVS+eY6h/sDgRvnGDQX5XA==
   dependencies:
     doge-config "^0.3.5"
     nodesite.eu "^1.2.0-10"
     nsblob "^0.2.6"
     oplist "^0.0.0-3"
     prompts "^2.4.1"
-    serial-async-io "^0.1.0-2"
+    serial-async-io "^0.1.0"
 
-nsprt@^0.1.0-2:
-  version "0.1.0-2"
-  resolved "https://registry.yarnpkg.com/nsprt/-/nsprt-0.1.0-2.tgz#5b62ca046878a1096755f417821ac82cc903deac"
-  integrity sha512-nl3vge/a+YUe3ypqqQWtBwRn9XpotmEK3OxuVQ5+hwk3m1CfgUtUNQrG0lCh+H2NyVOs4UJPe/UqGbXk0e92VQ==
+nsprt@^0.1.1:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/nsprt/-/nsprt-0.1.1.tgz#812e0f2656a7069cdd6702738e002b5695c83fe8"
+  integrity sha512-HL1TYM8mc4VxylNy+bAG86DkrfhdviAptFjjf9KmTWyaYYD6c+2gh3uOgr/agSsNdQkcoZd9d3XdMObKDvcPaA==
   dependencies:
     nsblob "^0.2.6"
     prettier "^2.3.2"
-    serial-async-io "^0.1.0-2"
+    serial-async-io "^0.1.0"
     ts-hound "^1.0.7"
 
 oplist@^0.0.0-3:
@@ -272,10 +272,10 @@ prompts@^2.4.1:
     kleur "^3.0.3"
     sisteransi "^1.0.5"
 
-serial-async-io@^0.1.0-2:
-  version "0.1.0-2"
-  resolved "https://registry.yarnpkg.com/serial-async-io/-/serial-async-io-0.1.0-2.tgz#65e34bbe66073aa6f37b157f4d36117d3d43e8b7"
-  integrity sha512-3vU/vs/DS3v/raZ31lcyW/4q3JXp2bvh7yRuyTIDJTah8BSPjq/XUFmEr0M9qRLfwQz6If/Cj7+1KbpGqQoLeQ==
+serial-async-io@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/serial-async-io/-/serial-async-io-0.1.0.tgz#3a44a459c6e7e9308463a2dac8a6e1e6582762bf"
+  integrity sha512-nbl2p7HbYHHIMUgf9fuDydG030wjk4/wwAm8537ZzL8kSyTe2U2z/Ekbeh7zi83YnY6Pu2GqDY5RJEC251ScLQ==
 
 sisteransi@^1.0.5:
   version "1.0.5"

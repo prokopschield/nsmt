@@ -7,10 +7,17 @@
   resolved "https://registry.yarnpkg.com/@types/component-emitter/-/component-emitter-1.2.10.tgz#ef5b1589b9f16544642e473db5ea5639107ef3ea"
   integrity sha512-bsjleuRKWmGqajMerkzox19aGbscQX5rmmvvXl3wlIp5gMG1HgkiwPxsN5p070fBDKTNSPgojVbuY1+HWMbFhg==
 
-"@types/node@^14":
+"@types/node@*", "@types/node@^14":
   version "14.17.5"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-14.17.5.tgz#b59daf6a7ffa461b5648456ca59050ba8e40ed54"
   integrity sha512-bjqH2cX/O33jXT/UmReo2pM7DIJREPMnarixbQ57DOOzzFaI6D2+IcwaJQaJpv0M1E9TIhPCYVxrkcityLjlqA==
+
+"@types/prompts@^2.0.14":
+  version "2.0.14"
+  resolved "https://registry.yarnpkg.com/@types/prompts/-/prompts-2.0.14.tgz#10cb8899844bb0771cabe57c1becaaaca9a3b521"
+  integrity sha512-HZBd99fKxRWpYCErtm2/yxUZv6/PBI9J7N4TNFffl5JbrYMHBwF25DjQGTW3b3jmXq+9P6/8fCIb2ee57BFfYA==
+  dependencies:
+    "@types/node" "*"
 
 backo2@~1.0.2:
   version "1.0.2"
@@ -200,10 +207,10 @@ nsblob@^0.2.9:
     nodesite.eu-core "^1.2.0"
     serial-async-io "^0.1.0"
 
-nsmt-nslibmgr@^0.2.9:
-  version "0.2.9"
-  resolved "https://registry.yarnpkg.com/nsmt-nslibmgr/-/nsmt-nslibmgr-0.2.9.tgz#a4c79e96ee73c6addb1b367007b06db81c7cefd6"
-  integrity sha512-6Y/wllxQuA+TBO6xF1O2PYBhElUPAV70iwPpfMQNz9by0odhmDdvarWZmSzYuzqaFFBwBL5uUWXI0HHQgKKN3g==
+nsmt-nslibmgr@^0.2.11:
+  version "0.2.11"
+  resolved "https://registry.yarnpkg.com/nsmt-nslibmgr/-/nsmt-nslibmgr-0.2.11.tgz#cfc058a0cb880307ffb6f5b517ae53ac85d0bbe7"
+  integrity sha512-CEj0Aynf8mE8WIx/TIh13piL2+5LtmfXEAB3UonOdaM7DVY/N3ApdppbiFtxqlFja0JuENbXjWMA/mHDqWxmLw==
   dependencies:
     doge-config "^0.3.10"
     nsblob "^0.2.9"

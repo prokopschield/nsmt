@@ -1,7 +1,7 @@
 {
 	"name": "nsmt",
 	"description": "auto-run nslibmgr make clean lint",
-	"version": "0.1.10",
+	"version": "0.1.11",
 	"main": "lib/cli.js",
 	"bin": {
 		"nsmt": "lib/cli.js"
@@ -15,9 +15,9 @@
 	"keywords": [],
 	"dependencies": {
 		"cluster": "^0.7.7",
-		"nsmt-nslibmgr": "^0.2.11",
-		"nsprt": "^0.1.4",
-		"serial-async-io": "^0.1.0",
+		"nsmt-nslibmgr": "^0.2.14",
+		"nsprt": "^0.1.5",
+		"serial-async-io": "^0.3.0",
 		"ts-hound": "^1.0.8"
 	}
 }

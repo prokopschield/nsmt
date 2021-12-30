@@ -3,12 +3,8 @@
 import cluster, { Worker } from 'cluster';
 
 if (cluster.isMaster) {
+	require('nsprt/lib/cli');
 	require('./parent');
 } else {
 	require('./child');
 }
-
-process.on('uncaughtException', (error) => console.log({ error }));
-process.on('unhandledRejection', (_reason, promise) =>
-	console.log('Unhandeled rejection!', promise)
-);

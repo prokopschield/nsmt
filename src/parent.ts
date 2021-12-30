@@ -1,8 +1,5 @@
 import cluster, { Worker } from 'cluster';
 import * as nslibmgr from 'nsmt-nslibmgr/lib/nslibmgr';
-import { nsprt } from 'nsprt';
-
-let prettier = nsprt();
 
 let worker: Worker;
 let worker_initialized = false;
@@ -29,7 +26,8 @@ Promise.resolve().then(async () => {
 			worker.once('online', () => {
 				worker.process.stdout?.pipe(process.stdout);
 				worker.process.stderr?.pipe(process.stdout);
-				worker.process.stdin && process.stdin.pipe(worker.process.stdin);
+				worker.process.stdin &&
+					process.stdin.pipe(worker.process.stdin);
 				worker.once('exit', resolve);
 			});
 		});

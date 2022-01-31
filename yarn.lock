@@ -2,6 +2,11 @@
 # yarn lockfile v1
 
 
+"@lvksh/logger@1.5.2", "@lvksh/logger@^1.5.2":
+  version "1.5.2"
+  resolved "https://registry.yarnpkg.com/@lvksh/logger/-/logger-1.5.2.tgz#4bdf255edf008a4e746596f1e574b77807c629fb"
+  integrity sha512-BpzPz2y0K4y/u8yeOIwYKrsRgRJmPsA7RLdllLJ8kMes7up8o/xKf+9LKHul4uvZYd4xR4YoK+3MYDGwEMTOBg==
+
 "@types/component-emitter@^1.2.10":
   version "1.2.11"
   resolved "https://registry.yarnpkg.com/@types/component-emitter/-/component-emitter-1.2.11.tgz#50d47d42b347253817a39709fef03ce66a108506"
@@ -18,6 +23,11 @@
   integrity sha512-HZBd99fKxRWpYCErtm2/yxUZv6/PBI9J7N4TNFffl5JbrYMHBwF25DjQGTW3b3jmXq+9P6/8fCIb2ee57BFfYA==
   dependencies:
     "@types/node" "*"
+
+argparse@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/argparse/-/argparse-2.0.1.tgz#246f50f3ca78a3240f6c997e8a9bd1eac49e4b38"
+  integrity sha512-8+9WqebbFzpX9OR+Wa6O29asIogeRMzcGtAINdpMHHyAg10f05aSFVBbcEqGf/PXw1EjAZ+q2/bEBg3DvurK3Q==
 
 backo2@~1.0.2:
   version "1.0.2"
@@ -153,6 +163,20 @@ has-cors@1.1.0:
   resolved "https://registry.yarnpkg.com/has-cors/-/has-cors-1.1.0.tgz#5e474793f7ea9843d1bb99c23eef49ff126fff39"
   integrity sha1-XkdHk/fqmEPRu5nCPu9J/xJv/zk=
 
+js-yaml@^4.1.0:
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/js-yaml/-/js-yaml-4.1.0.tgz#c1fb65f8f5017901cdd2c951864ba18458a10602"
+  integrity sha512-wpxZs9NoxZaJESJGIZTyDEaYpl0FKSA+FB9aJiyemKhMwkxQg63h4T1KJgUGHpTqPDNRcmmYLugrRjJlBtWvRA==
+  dependencies:
+    argparse "^2.0.1"
+
+json5@^2.2.0:
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/json5/-/json5-2.2.0.tgz#2dfefe720c6ba525d9ebd909950f0515316c89a3"
+  integrity sha512-f+8cldu7X/y7RAJurMEJmdoKXGB/X550w2Nr3tTbezL6RwEE/iMcm+tZnXeoZtKuOq6ft8+CqzEkrIgx1fPoQA==
+  dependencies:
+    minimist "^1.2.5"
+
 kleur@^3.0.3:
   version "3.0.3"
   resolved "https://registry.yarnpkg.com/kleur/-/kleur-3.0.3.tgz#a79c9ecc86ee1ce3fa6206d1216c501f147fc07e"
@@ -170,6 +194,11 @@ kleur@^3.0.3:
     sprintf-kit "^2.0.0"
     type "^1.0.1"
 
+minimist@^1.2.5:
+  version "1.2.5"
+  resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.5.tgz#67d66014b66a6a8aaa0c083c5fd58df4e4e97602"
+  integrity sha512-FM9nNUYrRBAELZQT3xeZQ7fmMOBg6nWNmJKTcgsJeaLstP/UODVpGsr5OhXhhXg6f+qtJ8uiZ+PUxkDWcgIXLw==
+
 "mkdirp@>= 0.0.1":
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/mkdirp/-/mkdirp-1.0.4.tgz#3eb5ed62622756d79a5f0e2a221dfebad75c2f7e"
@@ -186,13 +215,14 @@ next-tick@~1.0.0:
   integrity sha1-yobR/ogoFpsBICCOPchCS524NCw=
 
 nodesite.eu-core@^1.2.0:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/nodesite.eu-core/-/nodesite.eu-core-1.2.0.tgz#5f13b5cef1d05c3471806ba46ac89648cfca7fd3"
-  integrity sha512-eOtp1gAKly/FIJ1vrB3Fk0Aub/csDiL29jbssuQ16bTMS6uiVGaCtB3v83HfkNWyudKkhKscFWfjRf86q9Mhug==
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/nodesite.eu-core/-/nodesite.eu-core-1.3.0.tgz#6864eb4fa369678a72f38f3abd259c8bf155271a"
+  integrity sha512-1Siim/Qo5yfcEcg5xvaVw8TDAZEMcdibNxeRXwAEx43OPVjJ9KGUGx3+tKT2vg7H1/46waQjPbsJgb8DG+8xAQ==
   dependencies:
+    "@lvksh/logger" "1.5.2"
     socket.io-client "^3.1.3"
 
-nsblob@^0.2.10, nsblob@^0.2.9:
+nsblob@^0.2.10:
   version "0.2.10"
   resolved "https://registry.yarnpkg.com/nsblob/-/nsblob-0.2.10.tgz#93084f17c6f49e41801c7e15a6fdc7477638cd13"
   integrity sha512-oFaJYU/698INEMoozIh1fm3MQKnmp2tjEtjeAXMkvKRv7sDprniCbH91px0Mp0bE7JsttVtLl+9Hrd7/jYAHyw==
@@ -202,25 +232,29 @@ nsblob@^0.2.10, nsblob@^0.2.9:
     nodesite.eu-core "^1.2.0"
     serial-async-io "^0.3.0"
 
-nsmt-nslibmgr@^0.2.14:
-  version "0.2.14"
-  resolved "https://registry.yarnpkg.com/nsmt-nslibmgr/-/nsmt-nslibmgr-0.2.14.tgz#2f9a15a186a793ffac84f3dbbd7742c2fd3da691"
-  integrity sha512-GbYKlsrCilLLYPX/4NrOjIs5t6fG/Rp9XX9B4qu+CHShOy3Y2D4dFnolyMLWwJwF4m1/vJQQaGxpRWZUN6IIfA==
+nsmt-nslibmgr@^0.2.15:
+  version "0.2.15"
+  resolved "https://registry.yarnpkg.com/nsmt-nslibmgr/-/nsmt-nslibmgr-0.2.15.tgz#3d58895cc7c45dff427ee0a3ee6f1f78e76318ee"
+  integrity sha512-iPn3revOVyEJ0/yAIb8ctUlrjP19M3XT3bc/KrWos76JrvJ1e9R+d5FpFjP50X1kdY5c/QMZGsXJlMrdCxm+2w==
   dependencies:
     doge-config "^0.3.13"
-    nsblob "^0.2.9"
+    nsblob "^0.2.10"
     oplist "^0.0.0-7"
     prompts "^2.4.1"
-    serial-async-io "^0.3.0"
+    serial-async-io "^0.3.2"
 
-nsprt@^0.1.5:
-  version "0.1.5"
-  resolved "https://registry.yarnpkg.com/nsprt/-/nsprt-0.1.5.tgz#e4c11a25f918c43b2953bb893ffe767f13d2610a"
-  integrity sha512-3theYO1hkPUbHIYYk1eSl7naCjVmBAEQKWsQ3Vj0L8cQBBxuglEj7WR9O9bBgRiKDlyeC/S65AbyzwBVlP6YcA==
+nsprt@^0.1.7:
+  version "0.1.7"
+  resolved "https://registry.yarnpkg.com/nsprt/-/nsprt-0.1.7.tgz#a01d464ae15a459c2daaaa2f18575cb7c4a6211d"
+  integrity sha512-Vy16dBv3lVVAIO8BllfqT2MXPkB9jhwQTLJasNjq0SDZZpv30Pjz6dul/82b7VPQUFjG53SyuxcldgVc+tvi0g==
   dependencies:
+    "@lvksh/logger" "^1.5.2"
+    js-yaml "^4.1.0"
+    json5 "^2.2.0"
     nsblob "^0.2.10"
     prettier "^2.5.1"
     serial-async-io "^0.3.0"
+    toml "^3.0.0"
     ts-hound "^1.0.8"
 
 oplist@^0.0.0-7:
@@ -258,6 +292,11 @@ serial-async-io@^0.3.0:
   resolved "https://registry.yarnpkg.com/serial-async-io/-/serial-async-io-0.3.0.tgz#27318e7e877ee9e225a26c359ef289b31214074b"
   integrity sha512-1HbyC6RmPQxCImY9XZNOH7w/eXNbG2X7+hDYiby2Mdlltp3fme0WMiGl1nvO4Xd7tye3c6PJtVZBV7IaVyegfg==
 
+serial-async-io@^0.3.2:
+  version "0.3.2"
+  resolved "https://registry.yarnpkg.com/serial-async-io/-/serial-async-io-0.3.2.tgz#0fbcfdbbdcd093caefd44f9cb0b68ea7d6167863"
+  integrity sha512-Uk3xSDyiLTCAdPjzNWU5bHk6MqRj4cUi/MqD2lPSg9k/PfJpZzpA+yEgWEIWH3SiWtjUc1eDc4T/iNbBiZ0DNQ==
+
 sisteransi@^1.0.5:
   version "1.0.5"
   resolved "https://registry.yarnpkg.com/sisteransi/-/sisteransi-1.0.5.tgz#134d681297756437cc05ca01370d3a7a571075ed"
@@ -291,6 +330,11 @@ sprintf-kit@^2.0.0:
   integrity sha512-2PNlcs3j5JflQKcg4wpdqpZ+AjhQJ2OZEo34NXDtlB0tIPG84xaaXhpA8XFacFiwjKA4m49UOYG83y3hbMn/gQ==
   dependencies:
     es5-ext "^0.10.53"
+
+toml@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/toml/-/toml-3.0.0.tgz#342160f1af1904ec9d204d03a5d61222d762c5ee"
+  integrity sha512-y/mWCZinnvxjTKYhJ+pYxwD0mRLVvOtdS2Awbgxln6iEnt4rk0yBxeSBHkGJcPucRiG0e55mwWp+g/05rsrd6w==
 
 ts-hound@^1.0.8:
   version "1.0.8"

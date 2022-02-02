@@ -81,10 +81,22 @@ doge-config@^0.3.13:
   dependencies:
     doge-json "^1.2.1"
 
+doge-config@^0.3.16:
+  version "0.3.16"
+  resolved "https://registry.yarnpkg.com/doge-config/-/doge-config-0.3.16.tgz#e8a16f3727b097d0f006f428e3ca6b5708af904a"
+  integrity sha512-sxfBXIRPGqxaguLTdzxtBU63Vdy2QOOtWbCkeKEc1hL0FWVZKC7IY0n8+REZAdw3RUivoHu1o8fmCIftDqpEwQ==
+  dependencies:
+    doge-json "^1.2.8"
+
 doge-json@^1.2.1, doge-json@^1.2.3, doge-json@^1.2.6:
   version "1.2.6"
   resolved "https://registry.yarnpkg.com/doge-json/-/doge-json-1.2.6.tgz#1a9265f990b05e178b578421a668901c5e1308af"
   integrity sha512-evsIUVVlV5aNdt/08dQQC8yFbyy0Pi8o3grMCss8e5YGlXJCuCjs9RQAj2WxYgb1+G9knsQmASn7ox3MQV7Sxw==
+
+doge-json@^1.2.8:
+  version "1.2.8"
+  resolved "https://registry.yarnpkg.com/doge-json/-/doge-json-1.2.8.tgz#e4c5f51143721d64a1169441be8539680d6439d6"
+  integrity sha512-C5BpA66G4XLi0EiUq2ZUIeX3MKoD2ceFxMcjyUlxONiCtMW6sm5O+UDpnJ5gkOBWvNngT94tz0AKXPaPfqOtAQ==
 
 duration@^0.2.2:
   version "0.2.2"
@@ -232,15 +244,15 @@ nsblob@^0.2.10:
     nodesite.eu-core "^1.2.0"
     serial-async-io "^0.3.0"
 
-nsmt-nslibmgr@^0.2.15:
-  version "0.2.15"
-  resolved "https://registry.yarnpkg.com/nsmt-nslibmgr/-/nsmt-nslibmgr-0.2.15.tgz#3d58895cc7c45dff427ee0a3ee6f1f78e76318ee"
-  integrity sha512-iPn3revOVyEJ0/yAIb8ctUlrjP19M3XT3bc/KrWos76JrvJ1e9R+d5FpFjP50X1kdY5c/QMZGsXJlMrdCxm+2w==
+nsmt-nslibmgr@^0.2.16:
+  version "0.2.16"
+  resolved "https://registry.yarnpkg.com/nsmt-nslibmgr/-/nsmt-nslibmgr-0.2.16.tgz#dcf99dc8de19a3398e6ed2ef152ceb51c972bd77"
+  integrity sha512-9ykmpU7rpHAwI9wauWuw7CMd6G8xbxxgOXv6cAkPl19TByWhGSAAoWNaWZ8GzDVDuANzS14rHqUFYjblcWpqgg==
   dependencies:
-    doge-config "^0.3.13"
+    doge-config "^0.3.16"
     nsblob "^0.2.10"
     oplist "^0.0.0-7"
-    prompts "^2.4.1"
+    prompts "^2.4.2"
     serial-async-io "^0.3.2"
 
 nsprt@^0.1.7:
@@ -279,7 +291,7 @@ prettier@^2.5.1:
   resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.5.1.tgz#fff75fa9d519c54cf0fce328c1017d94546bc56a"
   integrity sha512-vBZcPRUR5MZJwoyi3ZoyQlc1rXeEck8KgeC9AwwOn+exuxLxq5toTRDTSaVrXHxelDMHy9zlicw8u66yxoSUFg==
 
-prompts@^2.4.1:
+prompts@^2.4.2:
   version "2.4.2"
   resolved "https://registry.yarnpkg.com/prompts/-/prompts-2.4.2.tgz#7b57e73b3a48029ad10ebd44f74b01722a4cb069"
   integrity sha512-NxNv/kLguCA7p3jE8oL2aEBsrJWgAakBpgmgK6lpPWV+WuOmY6r2/zbAVnP+T8bQlA0nzHXSJSJW0Hq7ylaD2Q==

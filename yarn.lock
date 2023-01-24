@@ -244,12 +244,13 @@ nsblob@^0.2.10:
     nodesite.eu-core "^1.2.0"
     serial-async-io "^0.3.0"
 
-nsmt-nslibmgr@^0.2.16:
-  version "0.2.16"
-  resolved "https://registry.yarnpkg.com/nsmt-nslibmgr/-/nsmt-nslibmgr-0.2.16.tgz#dcf99dc8de19a3398e6ed2ef152ceb51c972bd77"
-  integrity sha512-9ykmpU7rpHAwI9wauWuw7CMd6G8xbxxgOXv6cAkPl19TByWhGSAAoWNaWZ8GzDVDuANzS14rHqUFYjblcWpqgg==
+nsmt-nslibmgr@^0.2.21:
+  version "0.2.21"
+  resolved "https://registry.yarnpkg.com/nsmt-nslibmgr/-/nsmt-nslibmgr-0.2.21.tgz#d155a88b7fba9f6a1b67b3ba78ab2e3d2ea99b58"
+  integrity sha512-dc32x0R3uVVVX1ZEd6Oc0fnO7R8dyULP4BxN6ntxeaVQhpQzXCn/BlPo/SRIUaHHCIdyuSDh7zbIeQHSYvFgyw==
   dependencies:
     doge-config "^0.3.16"
+    doge-json "^1.2.8"
     nsblob "^0.2.10"
     oplist "^0.0.0-7"
     prompts "^2.4.2"

@@ -1,4 +1,5 @@
 import cluster, { Worker } from 'cluster';
+import { compile } from 'nsmt-nslibmgr';
 import * as nslibmgr from 'nsmt-nslibmgr/lib/nslibmgr';
 
 let worker: Worker;
@@ -9,7 +10,7 @@ Promise.resolve().then(async () => {
 		// prepare cloudHandler
 		await nslibmgr.cloudHandler('.', {});
 		// compile TypeScript
-		await nslibmgr.compileHandler();
+		await compile();
 		// purge unwanted files
 		await nslibmgr.cloudHandler('.', {
 			unlink_by_default: true,

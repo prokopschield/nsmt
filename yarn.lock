@@ -334,10 +334,10 @@ nsblob@^0.2.24:
     serial-async-io "^0.3.2"
     socket.io-client "^4.6.2"
 
-nsmt-nslibmgr@^0.2.23:
-  version "0.2.23"
-  resolved "https://registry.yarnpkg.com/nsmt-nslibmgr/-/nsmt-nslibmgr-0.2.23.tgz#c971a849abd0a621694a821914c9ac46a6fce977"
-  integrity sha512-Vyb4+gpkJHe3O2hprwcS7E00gStbaJpozza7nU1QjeYHuAtVrONavzsCXV/WlU/CQPa1P1kNkjPL6NdayXYqqg==
+nsmt-nslibmgr@^0.2.24-1:
+  version "0.2.24-1"
+  resolved "https://registry.yarnpkg.com/nsmt-nslibmgr/-/nsmt-nslibmgr-0.2.24-1.tgz#cdfd4602ef54edcc5edcc67a87aac34858c1a201"
+  integrity sha512-UCQNBzPv9OvviePg09xvwxi6+IgQjavF+TpDAToQMj8lL8EonVaHncETbed8a9moWuCoP7ki74CGeUDoh+u3PA==
   dependencies:
     doge-config "^0.3.20"
     doge-don "^0.1.0-10"
@@ -345,6 +345,7 @@ nsmt-nslibmgr@^0.2.23:
     nsblob64 "^0.2.24"
     oplist "^0.0.0-7"
     prompts "^2.4.2"
+    ps-std "^0.1.45"
     serial-async-io "^0.3.2"
 
 nsprt@^0.1.7:
@@ -390,6 +391,11 @@ prompts@^2.4.2:
   dependencies:
     kleur "^3.0.3"
     sisteransi "^1.0.5"
+
+ps-std@^0.1.45:
+  version "0.1.45"
+  resolved "https://registry.yarnpkg.com/ps-std/-/ps-std-0.1.45.tgz#9d1000c34664bd02c56c29acc8cf261af9a1fb52"
+  integrity sha512-xTb/NeNLBQ87vQoh3IStcOeB3hOPyYlf4+JAsgaet97jVQ6sZmcQS7H8yYnwB/iZr3L/dJPUyN4lBDLtJMctGA==
 
 serial-async-io@^0.3.0:
   version "0.3.0"

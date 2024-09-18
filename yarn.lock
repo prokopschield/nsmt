@@ -252,10 +252,10 @@ nsblob@^0.2.24:
     serial-async-io "^0.3.2"
     socket.io-client "^4.6.2"
 
-nsmt-nslibmgr@^0.2.24-4:
-  version "0.2.24-4"
-  resolved "https://registry.yarnpkg.com/nsmt-nslibmgr/-/nsmt-nslibmgr-0.2.24-4.tgz#cdb4087bc5bb057ab943642fa66ec4ffa4ea6745"
-  integrity sha512-lx5AoLpfyZGuh73cCAOVxCiVAmlTTIszcj3PhTygzqoIpr2zPxoy0Fx+xSQ+JgT8uj3cNj+Q0BkmcYzNodSoOg==
+nsmt-nslibmgr@^0.2.24-6:
+  version "0.2.24-6"
+  resolved "https://registry.yarnpkg.com/nsmt-nslibmgr/-/nsmt-nslibmgr-0.2.24-6.tgz#529c2ac84b037478cf2f5ce44812055e79067470"
+  integrity sha512-ePLGIG7Q8+CRn9gt1DguGjXIUDk7VMGYcrgKvB6SBVyrpYleZ0bpJsM31JpOhhUzS0ucIpMOxx7W8AQu0M/0Tw==
   dependencies:
     doge-config "^0.3.20"
     doge-don "^0.1.0-10"

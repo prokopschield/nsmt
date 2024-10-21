@@ -88,32 +88,22 @@ debug@~4.3.2:
   dependencies:
     ms "2.1.2"
 
-doge-config@^0.3.20:
-  version "0.3.20"
-  resolved "https://registry.yarnpkg.com/doge-config/-/doge-config-0.3.20.tgz#430770a454c81740ebaa2d226be480d87246e240"
-  integrity sha512-2JrUCL8HTGS7KYpYkPx6kvrhAhrC/+OQCss5kPMi17hCVfb4OnSLEdyIwaEAbRUoIZ0d4lIfFUYuk2PLoRaSuw==
+doge-config@^0.3.20, doge-config@^0.3.22:
+  version "0.3.22"
+  resolved "https://registry.yarnpkg.com/doge-config/-/doge-config-0.3.22.tgz#28a2f69d698ffaf90ab92c050cb5867c73b83a83"
+  integrity sha512-R4NXOluN7ZqG7V1e6hvO0LVOZCB7wHjjA65MFnCAGvMsJIkVeOMPaQOQe4NkZJmuD3OqihIEfWHP3YATgWi5yg==
   dependencies:
-    doge-json "^1.2.8"
+    doge-json "^1.2.13"
 
 doge-don@^0.1.0-10:
   version "0.1.0-10"
   resolved "https://registry.yarnpkg.com/doge-don/-/doge-don-0.1.0-10.tgz#61d9ab903403400ea72873a9b5bf7549be2c05c8"
   integrity sha512-6UIEfYD5XcQF4cn2lBmDsZMRIggUYZ+bG8BsSh3iDXNd3FttD/riXvHTkB3wM7stPi9S8IOaT0m3avzfsQrzUw==
 
-doge-json@^1.2.11, doge-json@^1.2.12:
-  version "1.2.12"
-  resolved "https://registry.yarnpkg.com/doge-json/-/doge-json-1.2.12.tgz#9542f7ca9e48ef45d653aad7958ec39b3c96b9d3"
-  integrity sha512-PquuiRhrcYWE9hpyGLo+UmpJXHCWYLzeCOiOkTsoYMjT1rI7ybnmILnwE2+dX9p41KLlXzD2hTqe4oDsfCbhlQ==
-
-doge-json@^1.2.6:
-  version "1.2.6"
-  resolved "https://registry.yarnpkg.com/doge-json/-/doge-json-1.2.6.tgz#1a9265f990b05e178b578421a668901c5e1308af"
-  integrity sha512-evsIUVVlV5aNdt/08dQQC8yFbyy0Pi8o3grMCss8e5YGlXJCuCjs9RQAj2WxYgb1+G9knsQmASn7ox3MQV7Sxw==
-
-doge-json@^1.2.8:
-  version "1.2.8"
-  resolved "https://registry.yarnpkg.com/doge-json/-/doge-json-1.2.8.tgz#e4c5f51143721d64a1169441be8539680d6439d6"
-  integrity sha512-C5BpA66G4XLi0EiUq2ZUIeX3MKoD2ceFxMcjyUlxONiCtMW6sm5O+UDpnJ5gkOBWvNngT94tz0AKXPaPfqOtAQ==
+doge-json@^1.2.11, doge-json@^1.2.13, doge-json@^1.2.6:
+  version "1.2.13"
+  resolved "https://registry.yarnpkg.com/doge-json/-/doge-json-1.2.13.tgz#d3b69caa5a87eb3a868025223308327c6580d6f2"
+  integrity sha512-CVU/cIdqeXXSeI3HwyA8kgthSmXUuddABiislBSTT5TvKCRamq2dcCDjEoq/WvvmKux1edZeRDpwTADW6CfydQ==
 
 duration@^0.2.2:
   version "0.2.2"
@@ -252,18 +242,18 @@ nsblob@^0.2.24:
     serial-async-io "^0.3.2"
     socket.io-client "^4.6.2"
 
-nsmt-nslibmgr@^0.2.24-6:
-  version "0.2.24-6"
-  resolved "https://registry.yarnpkg.com/nsmt-nslibmgr/-/nsmt-nslibmgr-0.2.24-6.tgz#529c2ac84b037478cf2f5ce44812055e79067470"
-  integrity sha512-ePLGIG7Q8+CRn9gt1DguGjXIUDk7VMGYcrgKvB6SBVyrpYleZ0bpJsM31JpOhhUzS0ucIpMOxx7W8AQu0M/0Tw==
+nsmt-nslibmgr@^0.2.24-7:
+  version "0.2.24-7"
+  resolved "https://registry.yarnpkg.com/nsmt-nslibmgr/-/nsmt-nslibmgr-0.2.24-7.tgz#eb5fa92a5690590c5a5db7781b826221928d6d3a"
+  integrity sha512-9Md9iF0HYmIpImuu+p/tm1UOwD6+pxN7IWUhA7i9CWJQf+z86XoQC38bGGzlLLgJjTCbHzWRY079xUwl1k6B/g==
   dependencies:
-    doge-config "^0.3.20"
+    doge-config "^0.3.22"
     doge-don "^0.1.0-10"
-    doge-json "^1.2.12"
+    doge-json "^1.2.13"
     nsblob64 "^0.2.24"
     oplist "^0.0.0-7"
     prompts "^2.4.2"
-    ps-std "^0.1.45"
+    ps-std "^0.1.48"
     serial-async-io "^0.3.2"
 
 nsprt@^0.1.8-1:
@@ -301,10 +291,10 @@ prompts@^2.4.2:
     kleur "^3.0.3"
     sisteransi "^1.0.5"
 
-ps-std@^0.1.45:
-  version "0.1.45"
-  resolved "https://registry.yarnpkg.com/ps-std/-/ps-std-0.1.45.tgz#9d1000c34664bd02c56c29acc8cf261af9a1fb52"
-  integrity sha512-xTb/NeNLBQ87vQoh3IStcOeB3hOPyYlf4+JAsgaet97jVQ6sZmcQS7H8yYnwB/iZr3L/dJPUyN4lBDLtJMctGA==
+ps-std@^0.1.45, ps-std@^0.1.48:
+  version "0.1.48"
+  resolved "https://registry.yarnpkg.com/ps-std/-/ps-std-0.1.48.tgz#bc8211021d7ed422e46290a2e2ea78850062a3c5"
+  integrity sha512-R9u3kGZmrippQt+48z4bMww0D4XUYZmRN+iCgBo7NYOZ7JBQyz3JZzKojojSa55B+sH4lBFwy/6h2PFwxT5eqg==
 
 serial-async-io@^0.3.2:
   version "0.3.2"
